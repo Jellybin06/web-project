@@ -308,17 +308,17 @@ a {
     position: relative;
     border-radius:20px !important;
     box-shadow: none;
-border:1px solid black;
+    border:1px solid black;
     width: 1100px;
     margin: 0px -400px;
-
+    
 
 }
 .progress .progress-bar{
     animation: animate-positive 2s;
     position: relative;
     box-shadow: none;
-border-radius:20px !important;
+    border-radius:20px !important;
     
 }
 .progress .progress-bar:after{
@@ -327,11 +327,11 @@ border-radius:20px !important;
     top: -12px;
     right: 0px;
     background-color: #FF918E;
-    
+
     height:32px;
     width: 32px;
     border-radius: 50%;
-border:1px solid black;
+    border:1px solid black;
 }
 .progress.green .progress-bar:after{
     background-color:#A8FEBB;
@@ -339,6 +339,8 @@ border:1px solid black;
     background-color: #9CF9FB;
 }.progress.yellow .progress-bar:after{
     background-color:#EFDC7C;
+}.progress.purple .progress-bar:after{
+    background-color: rgb(120, 0, 136);
 }
 
 
@@ -348,7 +350,10 @@ border:1px solid black;
     background-color:  #679EF7;
 }.progress.yellow .progress-bar:before{
     background-color:#F0C808;
+}.progress.purple .progress-bar:before{
+    background-color: rgb(120, 0, 136);
 }
+
 .progress .progress-value{
     position: absolute;
     padding: 3px 7px;
@@ -381,3 +386,10 @@ border:1px solid black;
     0% { width: 0%; }
 }
 
+#arImg {
+    position: absolute;
+    width: 1000px;
+    height: 400px;
+    left: 18%;
+    top: 150px;
+}
