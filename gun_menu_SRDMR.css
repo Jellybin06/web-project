@@ -1,0 +1,350 @@
+@font-face {
+    font-family: 'Vitro_core';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Vitro_core.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '-KITA-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/-KITA-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#hr_container {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+
+#menu {
+    display: block;
+    position: relative;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.gun_menu {
+    position: absolute;
+    top: 50px;
+    left: 18%;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.map_menu {
+    position: absolute;
+    top: 50px;
+    left: 38%;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: balck;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.comunity_menu {
+    position: absolute;
+    top: 50px;
+    left: 58%;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.code_menu {
+    position: absolute;
+    top: 50px;
+    left: 78%;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    font-size: 1.4rem;
+    color: white;
+}
+
+#sn_container {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    background-color: rgb(26, 25, 25);
+    position: relative;
+}
+
+#guns {
+    height: 900px;
+    width: 200px;
+    right: 0;
+    display: block;
+    position: absolute;
+    background-color: rgb(46, 46, 46);
+}
+
+.win94 {
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid darkgray;
+    line-height: 100px;
+    color: darkgray;
+    cursor: pointer;
+}
+
+.kar98 {
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid darkgray;
+    line-height: 100px;
+    color: darkgray;
+    top: 100px;
+    cursor: pointer;
+}
+
+.M24 {
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid darkgray;
+    line-height: 100px;
+    color: darkgray;
+    top: 200px;
+    cursor: pointer;
+}
+
+.AWM {
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid darkgray;
+    line-height: 100px;
+    color: darkgray;
+    top: 300px;
+    cursor: pointer;
+}
+
+.Mini14 {
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid darkgray;
+    line-height: 100px;
+    color: darkgray;
+    top: 400px;
+    cursor: pointer;
+}
+
+.qbu {
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid darkgray;
+    line-height: 100px;
+    color: darkgray;
+    top: 500px;
+    cursor: pointer;
+}
+
+.mk12 {
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid darkgray;
+    line-height: 100px;
+    color: darkgray;
+    top: 600px;
+    cursor: pointer;
+}
+
+.sks {
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid darkgray;
+    line-height: 100px;
+    color: darkgray;
+    top: 700px;
+    cursor: pointer;
+}
+
+.slr {
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid darkgray;
+    line-height: 100px;
+    color: darkgray;
+    top: 800px;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    margin: 500px;
+    display: none;
+}
+
+.progress-title{
+    font-size: 16px;
+    color:white;
+    margin:0px 0 20px;
+    font-weight: 700;
+    margin: 0px -200px;
+}
+.progress{
+    background-color:#fff;
+    height:15px;
+    overflow: visible !important;
+    position: relative;
+    margin-bottom: 30px;
+    position: relative;
+    border-radius:20px !important;
+    box-shadow: none;
+    border:1px solid black;
+    width: 1100px;
+    margin: 0px -200px;
+    
+
+}
+.progress .progress-bar{
+    animation: animate-positive 2s;
+    position: relative;
+    box-shadow: none;
+    border-radius:20px !important;
+    
+}
+.progress .progress-bar:after{
+    content:"";
+    position: absolute;
+    top: -12px;
+    right: 0px;
+    background-color: #FF918E;
+
+    height:32px;
+    width: 32px;
+    border-radius: 50%;
+    border:1px solid black;
+}
+.progress.green .progress-bar:after{
+    background-color:#A8FEBB;
+}.progress.blue .progress-bar:after{
+    background-color: #9CF9FB;
+}.progress.yellow .progress-bar:after{
+    background-color:#EFDC7C;
+}.progress.purple .progress-bar:after{
+    background-color: rgb(120, 0, 136);
+}
+
+
+.progress.green .progress-bar:before{
+    background-color:#13D73E;
+}.progress.blue .progress-bar:before{
+    background-color:  #679EF7;
+}.progress.yellow .progress-bar:before{
+    background-color:#F0C808;
+}.progress.purple .progress-bar:before{
+    background-color: rgb(120, 0, 136);
+}
+
+.progress .progress-value{
+    position: absolute;
+    padding: 3px 7px;
+    top:-50px;
+    right:-20px;
+    font-size:14px;
+    color:#ffffff;
+    background-color: #000000;
+    display: block;
+}
+.progress .progress-value:after{
+    content: "";
+    position: absolute;
+    bottom:-6px;
+    left: 35%;
+    border-top: 7px solid #000000;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+}
+
+.progress-bar {
+    height: 100%;
+}
+
+@-webkit-keyframes animate-positive {
+    0% { width: 0%; }
+}
+
+@keyframes animate-positive {
+    0% { width: 0%; }
+}
+
+#srdmrImg {
+    position: absolute;
+    width: 1000px;
+    height: 400px;
+    left: 18%;
+    top: 60px;
+}

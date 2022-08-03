@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <link rel="stylesheet" href="gun_menu_SMG.css">
+    
+</head>
+<body>
+    <header>
+        <div id="hr_container">
+            <nav id="menu">
+                <div class="gun_menu"><a href="gun_menu.html">총기 성능</a></div>
+                <div class="map_menu"><a href="Map.html">맵 설명</a></div>
+                <div class="comunity_menu"><a href="#">커뮤니티</a></div>
+                <div class="code_menu"><a href="MainPage.html">MAIN</a></div>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div id="sn_container">
+
+
+            <div id="guns">
+                <div class="ump45" onclick="ump45()">
+                    UMP45
+                </div>
+                <div class="mp5k" onclick="mp5k()">
+                    MP5K
+                </div>
+                <div class="uzi" onclick="uzi()">
+                    Micro UZI
+                </div>
+                <div class="vector" onclick="vector()">
+                    Vector
+                </div>
+                <div class="bizon" onclick="bizon()">
+                    PP-19 Bizon
+                </div>
+                <div class="tommy" onclick="tommy()">
+                    Tommy Gun
+                </div>
+                <div class="p90" onclick="p90()">
+                    P90
+                </div>
+                
+            </div>
+
+            <img src="./images/background.png" id="smgImg">
+
+            <div class="container">
+                <div class="col-md-offset-3 col-md-6">
+                    <h3 class="progress-title" id="dam_m">전투력 : </h3>
+                    <br>
+                    <div class="progress red">
+                        <div class="progress-bar" id="dam" style="width: 10%;  background-color:#F51008;">
+                        </div>
+                    </div>
+                    <br>
+                    <h3 class="progress-title" id="spd_m">탄속 : </h3>
+                    <br>
+                    <div class="progress green">
+                        <div class="progress-bar" id="spd" style="width: 30%;  background-color:#13D73E;">
+                        </div>
+                    </div>
+                    <br>
+                    <h3 class="progress-title" id="tan_m">장탄 수 : </h3>
+                    <br>
+                    <div class="progress blue">
+                        <div class="progress-bar" id = "tan" style="width:60%;  background-color:#0D47A1;">
+                        </div>
+                    </div>
+                    <br>
+                    <h3 class="progress-title" id="hth_m">안전성 : </h3>
+                    <br>
+                    <div class="progress yellow">
+                        <div class="progress-bar" id = "hth" style="width:90%; background-color:#F0C808;">
+                    </div>
+                    
+                </div>
+            </div>
+
+            </div>
+               
+               </section>
+               <script src="gun_menu_SMG.js"></script>
+        
+</body>
+</html>
